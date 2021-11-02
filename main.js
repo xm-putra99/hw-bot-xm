@@ -10,6 +10,7 @@ const WAConnection = simple.WAConnection(_WAConnection)
 const fs = require('fs')
 const { exec } = require('child_process')
 const moment = require('moment-timezone')
+const setting = JSON.parse(fs.readFileSync('./setting.json'))
 const { banner, start, success } = require('./lib/functions')
 const { color } = require('./lib/color')
 const gcrevoke = ["6285714160944-1621430788@g.us"]
