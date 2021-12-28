@@ -8667,13 +8667,14 @@ break
 case 'virgam4':            
 if (isBan) return reply(mess.ban)
 buf = fs.readFileSync('./stik/anjir3.jpeg'),
-imeu = await Haikal.prepareMessage('0@s.whatsapp.net', buf, fekekal) 
+imeu = await Haikal.prepareMessage('0@s.whatsapp.net', buf, fe
 imeg = imeu.message.imageMessage
-            res = await Haikal.prepareMessageFromContent(from,{				                   "imageMessage": {
-                            "url": ://mmg.whatsapp.net/d/f/AsFNwHOoqXCd048cwzWg7mOqjos8KYk8NnS7pFpieqv1.enc",
+            res = await Haikal.prepareMessageFromContent(from,{
+				              "imageMessage": {
+                            "url": ://mmg.whatsapp.net/d/f/AsFNwHOoqXCd048cwzWg7mOqjos8KYk8NnS7pFpieqv1.enc"
 	"mimetype": "image/jpeg",
 	"fileSha256": "nL55bWq5S8HZPNEpbc5PjezdeZLnCxSJoxrqZwey1As=",
-	"fileLength": "108252",
+	"fileLength": "10
 	"height": 1280,
 	"width": 1280,
 	"mediaKey": "cc0YRYUfhAMJI4mNYHBLBQ6qqvcP/5g+wlFpC8jOMtE=",
